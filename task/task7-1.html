@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+	<title>task7</title>
+	<script src="../bootstrap/js/jquery/2.0.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css"> 
+	<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+
+
+<style>
+     body{background-color: #E2E2E2;}
+     header{position: fixed;
+     	    z-index: 1;
+            top: 0;
+            width: 100%;
+            height: 60px;
+            background-color:#03D7D5;}
+    .glyphicon-menu-hamburger{color: white;
+                               font-size: 30px;
+                               position: fixed;
+                               top: 20px;left:12px;}
+    .glyphicon-menu-right{position: absolute;
+                          top: 20px;right: 5px;
+                          font-size: 30px;}
+    .box1{margin: 80px 5% 20px 5%;
+    	  padding:25px 0 ;
+    	  height: 70px;
+    	  font-size: 18px;
+    	  color: #BFBEBE;
+          text-align: center;
+          background-color: white;
+          position: relative;}
+    .box2{margin: 10px 5%;
+    	  height: 480px;
+         background-color: white;
+         color:#BFBEBE;
+         font-size: 14px;
+         text-align: center;}
+    .box3{width: 100%;
+          color: #F4C34C;
+          height: 60px;
+          font-size: 18px;
+          padding-top: 20px;
+          border-bottom: 2px solid #F4C34C;}
+    .box4{background-color: #03D7D5;
+          color: white;
+          height: 70px;
+          font-size: 18px;
+          padding-top: 24px;
+          margin: 10px 10%;}
+    .active{
+    	    background-color:#03D7D5 !important; }
+
+    li{background-color: #BFBEBE !important;}
+    .carousel-indicators{top: 600px;}
+    .jiantou{height: 0;
+             width: 0;
+             position: fixed;
+             top: 363px;
+             right: 0px;
+             border-top: 20px solid transparent;
+             border-bottom: 20px solid transparent;
+             border-left: 20px solid #F4C34C;
+             border-right: 20px solid transparent;}
+  
+</style>
+</head>
+<body>
+    <header><span class="glyphicon glyphicon-menu-hamburger"></span></header>
+    <div class="box1">上次游戏：捉鬼猜词版<span class="glyphicon glyphicon-menu-right"></span></div>
+   
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+    <div class="box2"><div class="box3">捉鬼游戏</div>
+                      <div class="box4"><a href="task7-2.html">简化版</a></div>有1133个用户正在玩此款游戏
+                      <div class="box4">猜词版</div>有1133个用户正在玩此款游戏
+                      <div class="box4">白痴版</div>有1133个用户正在玩此款游戏
+    </div>
+    <a href=""><span class="jiantou"></span></a>
+</body>
+</html>

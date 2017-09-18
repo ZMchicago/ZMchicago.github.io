@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
 	<title>ZM的博客</title>
 	<style type="text/css">
-		body{background-image:url(images/xiuxian.jpg);
-		     background-attachment: fixed;
-		     background-size: 100%,100%}
-		h1{text-align: center;}
+
+		body{margin: 0px;
+		    min-width: 320px;}
+		h1{text-align: center;
+		   margin-top: 0;}
 		a:link {color:#FF0000;}   
         a:visited {color:#00FF00;} 
         a:hover {color:#FF00FF;} 
@@ -17,21 +17,28 @@
      	               width: 50%;
      	               text-align: center;
                        margin: auto;
-                       border-collapse: collapse;}      	
+                       border-collapse: collapse;}
+     .box1{background-color: black;
+        color: white;}      	
      h5{text-align: center;}
-     ul{list-style: none;}
+     ul{list-style: none;
+     	padding-left: 0px;
+        font-size: 30px;
+        display: flex;}
      li{display: inline;
-        float: left;
-        width: 50%;
-        text-align: center;
-        font-size: 2em; 
-        padding-bottom: 2%}
+       flex-grow: 1;
+       text-align: center;
+       padding:0;}
         .buttom{clear:left; }
+     li:hover{background-color: #040AA1;
+     	      opacity: 0.7;}
     </style>
 </head>
 <body>
-	<h1>欢迎来到我的修仙世界</h1><hr />
-    <ul><li>css</li><li>javascript</li></ul><hr />
+	<div class="box1">
+	<h1>Welcome to the comprehension of the world</h1>
+    <ul><li>HTML/CSS</li><li>JAVASCRIPT</li><li>JQUERY</li></ul><hr /></div>
+	
 	<h5>还在建设中，望见谅......</h5>
 	<table>
 	   <tr><th>任务</th><th>状态</th></tr>
@@ -41,7 +48,7 @@
 	   <tr><td><a href="task/task4.html">筑基初期</a></td><td>完成</td></tr>
 	   <tr><td><a href="task/task5.html">筑基中期</a></td><td>完成</td></tr>
 	   <tr><td><a href="task/task6.html">筑基后期</a></td><td>完成</td></tr>
-	   <tr><td><a href="task/task7.html">结丹初期</a></td><td>未完成</td></tr>
+	   <tr><td><a href="task/task7.html">结丹初期</a></td><td>完成</td></tr>
 	   <tr><td><a href="task/task8.html">结丹中期</a></td><td>未完成</td></tr>
 	   <tr><td><a href="task/task9.html">结丹后期</a></td><td>未完成</td></tr>
 	   <tr><td><a href="task/task10.html">元婴初期</a></td><td>未完成</td></tr>
